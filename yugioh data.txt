@@ -86,19 +86,19 @@ tcg_meta_health = pd.DataFrame({
 fig, axes = plt.subplots(1,3, figsize=(18,5))
 
 sns.barplot(data=tcg_meta_health, x='TCG', y='PlayerBaseMillions2025', ax=axes[0], palette='pastel', hue='TCG', legend=False)
-axes[0].set_title('Projected Player Base (Millions) in 2025 - Estimated')
+axes[0].set_title(' Player Base (Millions) estimated (2025)')
 axes[0].set_ylabel('Millions of Players')
 axes[0].set_xticks(range(len(tcg_meta_health['TCG'])))
 axes[0].set_xticklabels(tcg_meta_health['TCG'], rotation=30)
 
 sns.barplot(data=tcg_meta_health, x='TCG', y='RetentionRate2025', ax=axes[1], palette='muted', hue='TCG', legend=False)
-axes[1].set_title('Player Retention Rate in 2025 - Estimated')
+axes[1].set_title('Player Retention Rate  estimated (2025)')
 axes[1].set_ylabel('Retention Rate')
 axes[1].set_xticks(range(len(tcg_meta_health['TCG'])))
 axes[1].set_xticklabels(tcg_meta_health['TCG'], rotation=30)
 
 sns.barplot(data=tcg_meta_health, x='TCG', y='MetaDiversityIndex', ax=axes[2], palette='deep', hue='TCG', legend=False)
-axes[2].set_title('Meta Diversity Index (2025) - Estimated')
+axes[2].set_title('Meta Diversity Index estimated (2025)')
 axes[2].set_ylabel('Diversity Index')
 axes[2].set_xticks(range(len(tcg_meta_health['TCG'])))
 axes[2].set_xticklabels(tcg_meta_health['TCG'], rotation=30)
