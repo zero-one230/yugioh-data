@@ -1,7 +1,4 @@
 
-sns.set_theme(style="whitegrid")
-
-
 price_data = pd.DataFrame({
     'Set': ['Crossover Breakers', 'Legacy of Destruction', 'Power of the Elements/Darkwing Blast'],
     'Year': [2022, 2023, 2023],
@@ -117,3 +114,4 @@ Yu-Gi-Oh! remains competitive with Magic: The Gathering and Pokémon in terms of
 Its meta diversity index has improved compared to the Genesis Format release, reflecting healthier gameplay and broader deck variety.
 Newer TCGs like Digimon and One Piece are growing but still face challenges with player retention and meta balance.
 """)
+
